@@ -1,0 +1,115 @@
+.contact_us{
+    max-width: 100%;
+    background-color: rgb(194, 192, 192);
+}
+.contact_us--header{
+    width: 80%;
+    padding: 100px 0;
+}
+.contact_item--home{
+    border: 1px solid #fff ;
+    color: #fff ;
+    font-size: 24px ;
+    padding: 10px 15px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.contact_item--title{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none; 
+}
+.contact{
+    max-width: 100%;
+    background-color: rgb(240, 239, 239);
+}
+.contact_item{
+    width: 80%;
+    padding: 40px 0;
+    display: flex;
+}
+.contact_item--phone{
+    display: flex;
+    align-items: center;
+}
+.contact_phone--icon{
+    padding: 0 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(44, 42, 42) ;
+    display: table;
+    width: 0px;
+    height: 55px;
+    text-align: center;
+}
+.contact_phone--icon:hover{
+    border: 2px solid orange;
+    color: orange;
+}
+.contact_phone--icon i{
+    text-align: center;
+    margin-top: 20px;
+}
+.contact_phone--info{
+    padding-left: 20px;
+    line-height: 20px;
+    color: #777;
+}
+/*  */
+.content_form{
+    max-width: 1140px;
+    margin: auto; 
+    
+}
+.header_form{
+    text-align: center;
+    font-size: 26px;
+    padding: 40px 0;
+}
+.row-1{
+    display: flex;
+    margin-bottom: 50px;
+}
+.col-md-1{
+   max-width: 50%;
+   padding-right: 40px;
+}
+.col-md-2{
+    max-width: 50%;
+}
+.py-3{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 20px 0;
+}
+
+.form_contact{
+   max-width: 50%;
+  
+}
+.form_map{
+    max-width: 50%;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    line-height: 1.25;
+    font-size: 21px;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+    font-size: 19px;
+}
+.contact_btn{
+    padding: 15px 40px;
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+}
